@@ -101,7 +101,7 @@ public class Modelo {
 			String paisOrigen=res.getString("PAISORIGEN");
 			String seccion=res.getString("SECCION");
 			String codSeg=res.getString("CODIGOSEG");
-			int anio=res.getInt("AÑO");
+		
 			
 			
 			//Productos tempProd= new Productos(c_art,seccion,n_art,precio,importado,fecha,paisOrigen,codSeg,anio);

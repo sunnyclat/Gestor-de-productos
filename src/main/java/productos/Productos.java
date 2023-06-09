@@ -13,7 +13,7 @@ public class Productos {
 	private String importado;
 	private String pOrig;
 	private String codSeg;
-	private int anio;
+
 	
 	
 	
@@ -167,16 +167,6 @@ public class Productos {
 
 
 
-	public int getAnio() {
-		return anio;
-	}
-
-
-
-
-	public void setAnio(int anio) {
-		this.anio = anio;
-	}
 
 
 
@@ -184,8 +174,7 @@ public class Productos {
 	@Override
 	public String toString() {
 		return "productos [idArtic=" + idArtic + ", seccion=" + seccion + ", nombreArt=" + nombreArt + ", precio="
-				+ precio + ", fecha=" + fecha + ", importado=" + importado + ", pOrig=" + pOrig + ", codSeg=" + codSeg
-				+ ", anio=" + anio + "]";
+				+ precio + ", fecha=" + fecha + ", importado=" + importado + ", pOrig=" + pOrig + ", codSeg=" + codSeg + "]";
 	}
 	
 	
